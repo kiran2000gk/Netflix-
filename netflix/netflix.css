@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #333;
+}
+
+/* first section */
+
+.fullpage {
+  position: relative;
+}
+
+.first_section {
+  width: 100%;
+  position: relative;
+  height: 750px;
+  margin-top: 8px;
+  /* background: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first_section img {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  /* background: linear-gradient(rgba(26, 188, 156,0.7), rgba(231, 76,60,0.7)); */
+}
+
+.logo img {
+  position: absolute;
+  margin-top: -375px;
+  margin-left: -850px;
+  width: 250px;
+  height: 100px;
+  float: left;
+}
+
+.signin {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: -480px;
+  /* margin-left: 1300px; */
+}
+
+.signin button {
+  width: 90px;
+  height: 45px;
+  font-size: 15px;
+  color: white;
+  background-color: #e50914;
+  border-radius: 5px;
+  margin-left: 850px;
+}
+
+.center-text {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  margin-top: 300px;
+
+  /* margin: 250px 500px; */
+  /* margin: 0 auto;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+  /* color: white;   */
+}
+
+.info h1 {
+  width: 800px;
+  font-size: 70px;
+  color: white;
+}
+.info h3 {
+  width: 800px;
+  font-size: 70px;
+  color: white;
+}
+
+.info h2 {
+  width: 800px;
+  /* margin-left: 520px; */
+
+  font-size: 29px;
+  color: white;
+}
+
+.form1 h1 {
+  width: 800px;
+  margin: 30px;
+  margin-left: -25px;
+  color: white;
+  font-size: 20px;
+}
+
+.form1 input {
+  width: 500px;
+  padding: 25px;
+  color: white;
+  margin-left: -200px;
+}
+
+.form1 button {
+  position: absolute;
+  width: 200px;
+  padding: 18px;
+  color: white;
+  font-size: 25px;
+  background-color: #e50914;
+  /* font-size: 22px ; */
+}
+
+/* second_section */
+
+.second_section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.second_text {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  color: white;
+  margin-left: -500px;
+  margin-top: 250px;
+}
+
+.second_text h1 {
+  text-align: left;
+  font-size: 55px;
+}
+.second_text h2 {
+  text-align: left;
+  margin-top: 15px;
+  /* margin-left: 10px; */
+  font-size: 25px;
+}
+
+.second_img {
+  position: relative;
+  float: right;
+  margin-left: 600px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_img img {
+  position: absolute;
+  width: 550px;
+  height: 400px;
+}
+.second_vid video {
+  width: 450px;
+  height: 225px;
+}
+
+/* third_section */
+
+.third_section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-top: 8px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.third_image img {
+  position: absolute;
+  width: 510px;
+  height: 380px;
+  margin-left: -500px;
+  margin-top: -200px;
+}
+
+.third_image_border {
+  margin-top: 50px;
+  margin-left: -425px;
+  background-color: black;
+  width: 350px;
+  height: 100px;
+  position: absolute;
+  border: 2px solid grey;
+  border-radius: 15px;
+}
+
+.third_img_border_image img {
+  position: absolute;
+  width: 58px;
+  height: 80px;
+  margin: 10px 20px;
+  margin-left: -150px;
+}
+
+.third_img_border_text h1 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 100px;
+  color: white;
+}
+
+.third_img_border_text p {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 100px;
+  font-size: 15px;
+  color: blue;
+}
+.third_img_border_icon img {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 60px;
+  height: 60px;
+}
+
+.third_text_heading {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  color: white;
+  margin-top: -80px;
+  margin-left: 50px;
+}
+.third_text_heading h1 {
+  text-align: left;
+  font-size: 50px;
+}
+.third_text_heading h2 {
+  text-align: left;
+  font-size: 50px;
+}
+.third_text_heading h3 {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.third_text_heading h4 {
+  text-align: left;
+  font-size: 25px;
+}
+
+/* fourth section  */
+
+.fourth_section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-top: 8px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fourth_section_text {
+  position: absolute;
+  width: 800px;
+  color: white;
+}
+
+.fourth_section_text h1 {
+  font-size: 60px;
+  /* margin-top: 50px; */
+  margin-left: -500px;
+  text-align: center;
+}
+
+.fourth_section_text h2 {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: -500px;
+}
+.fourth_section_image {
+  position: absolute;
+  width: 600px;
+  margin-left: 200px;
+  margin-top: -350px;
+}
+.fourth_section_image img {
+  position: absolute;
+  width: 550px;
+  height: 420px;
+}
+.fourth_section_image_video {
+  position: relative;
+}
+
+.fourth_section_image_video video {
+  position: absolute;
+  align-content: center;
+  margin-top: -50px;
+  margin-left: 105px;
+  width: 330px;
+  height: 400px;
+  opacity: 0.6;
+}
+
+/* fifth section */
+.fifth_section {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin-top: 8px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fifth_section_text {
+  width: 100%;
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+.fifth_section_text h1 {
+  font-size: 60px;
+  margin: 30px;
+}
+.what_is_netflix {
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  width: 815px;
+  height: 75px;
+  margin: 0 auto;
+}
+.what_is_netflix h1 {
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.Netflix_cost {
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  width: 815px;
+  height: 75px;
+  margin: 10px auto;
+}
+.Netflix_cost h1 {
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.I_watch {
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  width: 815px;
+  height: 75px;
+  margin: 10px auto;
+}
+.I_watch h1 {
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.I_cancel {
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  width: 815px;
+  height: 75px;
+  margin: 10px auto;
+}
+.I_cancel h1 {
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.on_Netflix {
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  width: 815px;
+  height: 75px;
+  margin: 10px auto;
+}
+.on_Netflix h1 {
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.readymelogin {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.readymelogin h1 {
+  font-size: 20px;
+  width: 800px;
+  height: 100px;
+  margin-left: 500px;
+}
+.fifth_form2 {
+  width: 800px;
+  height: 100px;
+  margin-top: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.form2 input {
+  width: 430px;
+  padding: 20px;
+  margin-left: 550px;
+  color: white;
+}
+.form2 button {
+  position: absolute;
+  width: 200px;
+  padding: 13px;
+  color: white;
+  font-size: 25px;
+  background-color: #e50914;
+  /* font-size: 22px ; */
+}
